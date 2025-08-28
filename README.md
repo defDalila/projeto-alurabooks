@@ -13,6 +13,6 @@
 </p>
 
 <p align="center">
-<img loading="lazy" src="https://img.shields.io/badge/STATUS-EM_DESENVOLVIMENTO-cyan?style=for-the-badge
+<img src="https://img.shields.io/badge/STATUS-EM_DESENVOLVIMENTO-cyan?style=for-the-badge
 ">
 </p>

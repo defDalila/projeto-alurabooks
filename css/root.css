@@ -1,0 +1,22 @@
+:root {
+    /*---------------- cores --------------*/
+    --bg-color: #EBECEE;
+    --black: #000000;
+    --d-grey: #858585;
+    --l-grey: #C4C4C4;
+    --off-white: #F9F9F9;
+    --white: #FFFFFF;
+    --d-blue: #002F52;
+    --l-blue: #326589;
+    --orange: #EB9B00;
+    --yellow: #FECD2F;
+    --g-blue: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+
+    /*---------------- fonte --------------*/
+    --main-font: "Poppins", sans-serif;
+    --light: 300;
+    --regular: 400;
+    --medium: 500;
+    --semibold: 600;
+    --bold: 700;
+}

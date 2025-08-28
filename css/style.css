@@ -1,0 +1,12 @@
+@import url(root.css);
+@import url(header.css);
+@import url(banner.css);
+@import url(swiper.css);
+
+body {
+    background-color: var(--bg-color);
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-weight: var(--f-regular);
+    color: var(--d-blue);
+}
