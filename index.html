@@ -58,67 +58,90 @@
                 </ul>
                 <img
                     class="header__icon"
-                    src="images/icons/logo.svg"
+                    src="images/icons-menu/logo.svg"
                     alt="logo AluraBooks" />
             </div>
             <div class="header__container">
                 <a href="#" target="_blank">
                     <img
                         class="header__icon"
-                        src="images/icons/favoritos.svg"
+                        src="images/icons-menu/favoritos.svg"
                         alt="Meus favoritos" />
                 </a>
                 <a href="#" target="_blank">
                     <img
                         class="header__icon"
-                        src="images/icons/compras.svg"
+                        src="images/icons-menu/compras.svg"
                         alt="Carrinho de compras" />
                 </a>
                 <a href="#" target="_blank">
                     <img
                         class="header__icon"
-                        src="images/icons/user.svg"
+                        src="images/icons-menu/user.svg"
                         alt="Meu Perfil" />
                 </a>
             </div>
         </header>
-
         <section class="banner">
-            ÚLTIMOS LANÇAMENTOS
             <h2 class="banner__title">Já sabe por onde começar?</h2>
-
             <p class="banner__text">
                 Encontre em nossa estante o que precisa para seu
                 desenvolvimento!
             </p>
-
             <input
                 type="search"
                 id="search"
                 class="banner__search"
                 placeholder="Qual será sua próxima leitura?" />
         </section>
-
         <section class="swiper">
             <h2 class="swiper-title">ÚLTIMOS LANÇAMENTOS</h2>
-
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">Slide 1</div>
-                    <div class="swiper-slide">Slide 2</div>
-                    <div class="swiper-slide">Slide 3</div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img
+                        src="images/books/apache-kafka.svg"
+                        alt="Livro sobre apache kafka e spring boot" />
                 </div>
-                <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
-
-                <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-
-                <!-- If we need scrollbar -->
-                <div class="swiper-scrollbar"></div>
+                <div class="swiper-slide">
+                    <img
+                        src="images/books/lideranca.svg"
+                        alt="Livro sobre liderança em design" />
+                </div>
+                <div class="swiper-slide">
+                    <img
+                        src="images/books/javascript.svg"
+                        alt="Livro sobre javascript assertivo" />
+                </div>
+                <div class="swiper-slide">
+                    <img
+                        src="images/books/guia-front-end.svg"
+                        alt="Guia de front-end" />
+                </div>
+                <div class="swiper-slide">
+                    <img
+                        src="images/books/portugol.svg"
+                        alt="Livro sobre portugol" />
+                </div>
+                <div class="swiper-slide">
+                    <img
+                        src="images/books/acessibilidade.svg"
+                        alt="Livro sobre acessibilidade" />
+                </div>
             </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
         </section>
-
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper(".swiper", {
+                spaceBetween: 10,
+                slidesPerView: 3,
+                pagination: {
+                    el: ".swiper-pagination",
+                    type: "bullets",
+                },
+            });
+        </script>
     </body>
 </html>
