@@ -30,6 +30,6 @@
     font-size: 0.875em;
     font-weight: var(--regular);
     text-align: center;
-    background: url(../images/icons/pesquisa.svg) no-repeat;
+    background: url(../images/icons-menu/pesquisa.svg) no-repeat;
     background-position: 1em;
 }
